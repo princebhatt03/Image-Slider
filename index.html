@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
+    <title>Image Slider</title>
+    <link
+      rel="stylesheet"
+      href="style.css" />
+  </head>
+  <body>
+    <div class="slider-wrap">
+      <div class="slider js-slider">
+        <div class="slider__images">
+          <div class="slide__image js-slide__image">
+            <img
+              src="https://images.unsplash.com/photo-1515898034510-821b204966e4?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=e471f614f6a3fc4636e162088988dcfe" />
+          </div>
+          <div class="slide__image js-slide__image">
+            <img
+              src="https://images.unsplash.com/photo-1515515332716-78b07ef2afc0?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=38f91da8907b841ddce070dcd3c24aa2" />
+          </div>
+          <div class="slide__image js-slide__image">
+            <img
+              src="https://images.unsplash.com/photo-1516563792456-57864571b2a1?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=a1d08d5d28f1bcdfd27b5f1d1c0c1c43" />
+          </div>
+        </div>
+
+        <div class="slider__content js-slider__content">
+          <div class="slide__content js-slide__content">
+            <div class="slide__sub js-stagger-item">Bmw</div>
+            <h1 class="slide__title js-stagger-item">I-Pace Branded Content</h1>
+          </div>
+          <div class="slide__content js-slide__content">
+            <div class="slide__sub js-stagger-item">Something</div>
+            <h1 class="slide__title js-stagger-item">This is a case title</h1>
+          </div>
+          <div class="slide__content js-slide__content">
+            <div class="slide__sub js-stagger-item">Client name</div>
+            <h1 class="slide__title js-stagger-item">Lorem ipsum dorum</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+    <script
+      type="module"
+      src="script.js"></script>
+  </body>
+</html>
